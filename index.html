@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tailwind Component - Toast Notification</title>
+  <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="ttoast.css">
+</head>
+<body>
+  <!-- Toast Container -->
+  <!-- put taost notification in here , to cope when the toast more than one -->
+  <div class="taost absolute right-0 top-0 m-5"></div>
+
+  <div class="flex flex-col w-56">
+    <button class="bg-green-500 hover:bg-green-600 px-3 py-1 text-white rounded m-5 focus:outline-none success">Show Toast Success</button>
+    <button class="bg-blue-500 hover:bg-blue-600 px-3 py-1 text-white rounded m-5 focus:outline-none info">Show Toast Info</button>
+    <button class="bg-orange-500 hover:bg-orange-600 px-3 py-1 text-white rounded m-5 focus:outline-none warning">Show Toast Warning</button>
+    <button class="bg-red-500 hover:bg-red-600 px-3 py-1 text-white rounded m-5 focus:outline-none danger">Show Toast Danger</button>
+  </div>
+
+  <script src="ttoast.js"></script>
+  <script>
+    const success = document.querySelector('.success');  
+    const info = document.querySelector('.info');
+    const warning = document.querySelector('.warning');
+    const danger = document.querySelector('.danger');
+
+    success.addEventListener('click', function (){
+      TToast('pesan sukses','success', {roundedClass: 'rounded', duration: 3000, animation: 'rotate'})
+    });
+    info.addEventListener('click', function (){
+      TToast('pesan info','info', {roundedClass: 'rounded', duration: 3000, animation: 'rotate'})
+    });
+    warning.addEventListener('click', function (){
+      TToast('pesan warning','warning', {roundedClass: 'rounded', duration: 3000, animation: 'rotate'})
+    });
+    danger.addEventListener('click', function (){
+      TToast('pesan danger','danger', {roundedClass: 'rounded', duration: 3000, animation: 'rotate'})
+    });
+  </script>
+  
+</body>
+</html>

@@ -1,0 +1,53 @@
+.rotate{
+  animation: .5s rotate forwards;
+}
+.flick{
+  animation: .5s flick forwards;
+}
+.zoomin{
+  animation: .5s zoomin forwards;
+}
+.opacity{
+  animation: .5s opacity forwards;
+}
+
+@keyframes rotate{
+  from{
+    transform-origin: top right;
+    transform: translateX(5px) translateY(15px) rotate(-60deg);
+  }
+  to{
+    transform: translateX(0) translateY(0) rotate(0);
+  }
+}
+
+@keyframes flick{
+  from{
+    transform-origin: right;
+    transform: translateX(15px) rotateZ(20deg) rotateY(90deg)
+  }
+  to{
+    
+    transform: translateX(0) rotateZ(0) rotateY(0)
+  }
+}
+
+@keyframes zoomin{
+  from{
+    opacity: 0;
+    transform: scale(1.5) translateX(-25px);
+  }
+  to{
+    opacity: 1;
+    transform: scale(1) translateX(0);
+  }
+}
+
+@keyframes opacity{
+  from{
+    opacity: 0;
+  }
+  to{
+    opacity: 1;
+  }
+}
