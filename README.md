@@ -7,8 +7,8 @@ toast notification yang dibuat menggunakan tailwind dan javascript untuk menampi
 ```javascript
 TToast(message, mode, costumize);
 ```
-### Parameters
 ---
+### Parameters
 
 * ##### message : String
 
@@ -32,14 +32,16 @@ pada textClass berisi style yang akan diberikan untuk text pada toast notificati
 roundedClass & textClass berisi class yang diberikan oleh tailwindcss.  
 untuk menggunakan animation, harus mengincludekan ttoast.css terlebih dahulu.  
 
-### Animation class
 ---
+### Animation class
+
 ```
 'rotate','flick','zoomin','opacity'
 ```
 
-###  Example
 ---
+###  Example
+
 ```javascript
   success
   TToast('pesan sukses','success', {roundedClass: 'rounded', textClass: 'font-bold cursor-default', duration: 3000, animation: 'rotate'})
@@ -53,7 +55,7 @@ untuk menggunakan animation, harus mengincludekan ttoast.css terlebih dahulu.
   danger
   TToast('pesan danger','danger', {roundedClass: 'rounded', textClass: 'text-xl', duration: 3000, animation: 'opacity'})
 ```
-
+---
 ### DEMO
 [https://hudadamar21.github.io/tailwind-toast-notification](https://hudadamar21.github.io/tailwind-toast-notification)
 
