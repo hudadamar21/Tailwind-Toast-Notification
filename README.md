@@ -8,6 +8,7 @@ toast notification yang dibuat menggunakan tailwind dan javascript untuk menampi
 TToast(message, mode, costumize);
 ```
 ### Parameters
+---
 
 ##### ..* message : String
 
@@ -32,11 +33,13 @@ roundedClass & textClass berisi class yang diberikan oleh tailwindcss.
 untuk menggunakan animation, harus mengincludekan ttoast.css terlebih dahulu.  
 
 ### Animation class
+---
 ```
 'rotate','flick','zoomin','opacity'
 ```
 
 ###  Example
+---
 ```javascript
   success
   TToast('pesan sukses','success', {roundedClass: 'rounded', textClass: 'font-bold cursor-default', duration: 3000, animation: 'rotate'})
