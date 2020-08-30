@@ -27,16 +27,16 @@
     const danger = document.querySelector('.danger');
 
     success.addEventListener('click', function (){
-      TToast('pesan sukses','success', {roundedClass: 'rounded', duration: 3000, animation: 'rotate'})
+      TToast('pesan sukses','success', {roundedClass: 'rounded', textClass: 'font-bold cursor-default', duration: 3000, animation: 'rotate'})
     });
     info.addEventListener('click', function (){
-      TToast('pesan info','info', {roundedClass: 'rounded', duration: 3000, animation: 'rotate'})
+      TToast('pesan info','info', {roundedClass: 'rounded', textClass: 'font-semibold cursor-pointer', duration: 3000, animation: 'flick'})
     });
     warning.addEventListener('click', function (){
-      TToast('pesan warning','warning', {roundedClass: 'rounded', duration: 3000, animation: 'rotate'})
+      TToast('pesan warning','warning', {roundedClass: 'rounded', textClass: 'underline text-gray-900 cursor-default', duration: 3000, animation: 'zoomin'})
     });
     danger.addEventListener('click', function (){
-      TToast('pesan danger','danger', {roundedClass: 'rounded', duration: 3000, animation: 'rotate'})
+      TToast('pesan danger','danger', {roundedClass: 'rounded', textClass: 'text-xl', duration: 3000, animation: 'opacity'})
     });
   </script>
   

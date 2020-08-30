@@ -39,16 +39,16 @@ untuk menggunakan animation, harus mengincludekan ttoast.css terlebih dahulu.
 ### Example
 ```javascript
   success
-  TToast('pesan success','success', {roundedClass: 'rounded', duration: 3000, animation: 'rotate'})
+  TToast('pesan sukses','success', {roundedClass: 'rounded', textClass: 'font-bold cursor-default', duration: 3000, animation: 'rotate'})
   
   info
-  TToast('pesan info','info', {roundedClass: 'rounded-full', duration: 5000, animation: 'flick'})
+  TToast('pesan info','info', {roundedClass: 'rounded', textClass: 'font-semibold cursor-pointer', duration: 5000, animation: 'flick'})
   
   warnning
-  TToast('pesan warning','warning', {roundedClass: 'rounded-md', duration: 2000, animation: 'zoomin'})
+  TToast('pesan warning','warning', {roundedClass: 'rounded', textClass: 'underline text-gray-900 cursor-default', duration: 2500, animation: 'zoomin'})
   
   danger
-  TToast('pesan danger','danger', {roundedClass: 'rounded', duration: 2500, animation: 'opacity'})
+  TToast('pesan danger','danger', {roundedClass: 'rounded', textClass: 'text-xl', duration: 3000, animation: 'opacity'})
 ```
 
 ### DEMO
