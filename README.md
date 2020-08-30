@@ -9,16 +9,16 @@ TToast(message, mode, costumize);
 ```
 ### Parameters
 
-##### message : String
+##### ..* message : String
 
-##### mode : String
+##### ..* mode : String
 ```javascript
 'success', 'info', 'warning', 'danger'
   
 default = 'success'
 ```
 
-##### costumize : Object
+##### ..* costumize : Object
 ```
 - iconSize : String | default = '1.8em'
 - roundedClass : String | default = tidak ada
@@ -36,7 +36,7 @@ untuk menggunakan animation, harus mengincludekan ttoast.css terlebih dahulu.
 'rotate','flick','zoomin','opacity'
 ```
 
-### Example
+###  Example
 ```javascript
   success
   TToast('pesan sukses','success', {roundedClass: 'rounded', textClass: 'font-bold cursor-default', duration: 3000, animation: 'rotate'})
