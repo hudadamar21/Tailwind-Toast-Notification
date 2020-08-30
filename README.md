@@ -52,7 +52,8 @@ untuk menggunakan animation, harus mengincludekan ttoast.css terlebih dahulu.
 ```
 
 ### DEMO
-[https://hudadamar21.github.io/tailwind-toast-notification]([https://hudadamar21.github.io/tailwind-toast-notification])
+[https://hudadamar21.github.io/tailwind-toast-notification](https://hudadamar21.github.io/tailwind-toast-notification)
 
 ### Tutorial
+null
 
