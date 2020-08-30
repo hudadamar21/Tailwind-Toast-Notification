@@ -3,23 +3,23 @@ toast notification yang dibuat menggunakan tailwind dan javascript untuk menampi
 
 ## Dokumentasi
 
-##### inisiasi function
+* ##### inisiasi function
 ```javascript
 TToast(message, mode, costumize);
 ```
 ### Parameters
 ---
 
-##### ..* message : String
+* ##### message : String
 
-##### ..* mode : String
+* ##### mode : String
 ```javascript
 'success', 'info', 'warning', 'danger'
   
 default = 'success'
 ```
 
-##### ..* costumize : Object
+* ##### costumize : Object
 ```
 - iconSize : String | default = '1.8em'
 - roundedClass : String | default = tidak ada
