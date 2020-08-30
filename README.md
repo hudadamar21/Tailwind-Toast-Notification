@@ -27,12 +27,13 @@ default = 'success'
 - duration : Numbers | default = 3000 (3detik)
 - animation : String | default = tidak ada
 ```
-saya menyarankan untuk menggunakan em untuk iconSize.  
-pada textClass berisi style yang akan diberikan untuk text pada toast notification.  
-roundedClass & textClass berisi class yang diberikan oleh tailwindcss.  
-untuk menggunakan animation, harus mengincludekan ttoast.css terlebih dahulu.  
+> saya menyarankan untuk menggunakan em untuk iconSize.
+> duration adalah berapa lama toast ditampilkan bukan durasi animasi. 
+> pada textClass berisi style yang akan diberikan untuk text pada toast notification.  
+> roundedClass & textClass berisi class yang diberikan oleh tailwindcss.  
+> untuk menggunakan animation, harus mengincludekan ttoast.css terlebih dahulu.  
 
----
+------
 ### Animation class
 
 ```
