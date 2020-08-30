@@ -31,7 +31,7 @@ pada textClass berisi style yang akan diberikan untuk text pada toast notificati
 roundedClass & textClass berisi class yang diberikan oleh tailwindcss.  
 untuk menggunakan animation, harus mengincludekan ttoast.css terlebih dahulu.  
 
-##### Animation class
+### Animation class
 ```
 'rotate','flick','zoomin','opacity'
 ```
